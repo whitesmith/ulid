@@ -21,7 +21,7 @@ pod 'ULID', :git => 'https://github.com/Whitesmith/ulid.git', :branch => 'master
 ### Usage
 
 ```objective-c
-#import <ULID/ULID.h>
+#import "ULID/ULID.h"
 
 NSLog(@"%@", [[WSULID ulid] ULIDString]);
 ```
