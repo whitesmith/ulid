@@ -1,7 +1,11 @@
 Pod::Spec.new do |s|
-  s.name              = "ULID"
-  s.version           = "0.1.0"
-  s.summary           = "Universally Unique Lexicographically Sortable Identifier"
+  s.name              = 'ULID'
+  s.version           = '0.1.0'
+  s.summary           = 'Universally Unique Lexicographically Sortable Identifier'
+  s.homepage          = 'https://github.com/whitesmith/WSTagsField'
+  s.author            = { "Ricardo Pereira" => "m@ricardopereira.eu" }
+  s.license           = 'MIT'
+  s.social_media_url  = 'https://twitter.com/whitesmithco'
   s.description       = <<-DESC
                         Universally Unique Lexicographically Sortable Identifier (Objective-C wrapper of the C++ lib).
                         DESC
