@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.requires_arc      = true
   s.source_files      = 'ULID/*.{h}', 'Source/*.{h,hh,hpp,cpp,m,mm}'
   s.public_header_files = 'ULID/*.{h}'
+  s.private_header_files = 'Source/*.{h,hh,hpp}'
 end
