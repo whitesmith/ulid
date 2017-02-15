@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D73F2AA11E5370F40029A18A /* ulid_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		D73F2AA21E5370F40029A18A /* ulid_uint128.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		D73F2AA31E5370F40029A18A /* ulid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA01E5370F40029A18A /* ulid.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		D73F2AA71E5385E40029A18A /* ulid_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D73F2AA51E5385E40029A18A /* ulid_wrapper.cpp */; };
-		D73F2AA81E5385E40029A18A /* ulid_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA61E5385E40029A18A /* ulid_wrapper.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D73F2AA11E5370F40029A18A /* ulid_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */; };
+		D73F2AA21E5370F40029A18A /* ulid_uint128.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */; };
+		D73F2AA31E5370F40029A18A /* ulid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA01E5370F40029A18A /* ulid.hpp */; };
 		D774F96A1E53493400F050F9 /* ULID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774F9601E53493400F050F9 /* ULID.framework */; };
 		D774F96F1E53493400F050F9 /* ULIDTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D774F96E1E53493400F050F9 /* ULIDTests.mm */; };
-		D774F9711E53493400F050F9 /* ULID.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D774F9631E53493400F050F9 /* ULID.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D774F9711E53493400F050F9 /* ULID.h in Headers */ = {isa = PBXBuildFile; fileRef = D774F9631E53493400F050F9 /* ULID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78FF06B1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78FF06C1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; };
+		D78FF06D1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; };
+		D78FF06E1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; };
+		D78FF06F1E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
+		D78FF0701E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
+		D78FF0711E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
+		D78FF0721E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +37,8 @@
 		D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid_struct.hpp; path = Source/ulid_struct.hpp; sourceTree = "<group>"; };
 		D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid_uint128.hpp; path = Source/ulid_uint128.hpp; sourceTree = "<group>"; };
 		D73F2AA01E5370F40029A18A /* ulid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid.hpp; path = Source/ulid.hpp; sourceTree = "<group>"; };
-		D73F2AA51E5385E40029A18A /* ulid_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ulid_wrapper.cpp; path = Source/ulid_wrapper.cpp; sourceTree = "<group>"; };
-		D73F2AA61E5385E40029A18A /* ulid_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid_wrapper.hpp; path = Source/ulid_wrapper.hpp; sourceTree = "<group>"; };
 		D774F9601E53493400F050F9 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D774F9631E53493400F050F9 /* ULID.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ULID.hpp; sourceTree = "<group>"; };
+		D774F9631E53493400F050F9 /* ULID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ULID.h; sourceTree = "<group>"; };
 		D774F9641E53493400F050F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D774F9691E53493400F050F9 /* ULIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D774F96E1E53493400F050F9 /* ULIDTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ULIDTests.mm; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		D78FF0471E53D385000DA6D5 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78FF0541E53D3AA000DA6D5 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78FF0611E53D3C0000DA6D5 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ulid_wrapper.h; path = Source/ulid_wrapper.h; sourceTree = "<group>"; };
+		D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ulid_wrapper.mm; path = Source/ulid_wrapper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +96,8 @@
 				D73F2AA01E5370F40029A18A /* ulid.hpp */,
 				D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */,
 				D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */,
-				D73F2AA61E5385E40029A18A /* ulid_wrapper.hpp */,
-				D73F2AA51E5385E40029A18A /* ulid_wrapper.cpp */,
+				D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */,
+				D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -121,7 +127,7 @@
 		D774F9621E53493400F050F9 /* ULID */ = {
 			isa = PBXGroup;
 			children = (
-				D774F9631E53493400F050F9 /* ULID.hpp */,
+				D774F9631E53493400F050F9 /* ULID.h */,
 				D774F9641E53493400F050F9 /* Info.plist */,
 			);
 			path = ULID;
@@ -145,9 +151,9 @@
 			files = (
 				D73F2AA11E5370F40029A18A /* ulid_struct.hpp in Headers */,
 				D73F2AA21E5370F40029A18A /* ulid_uint128.hpp in Headers */,
-				D774F9711E53493400F050F9 /* ULID.hpp in Headers */,
-				D73F2AA81E5385E40029A18A /* ulid_wrapper.hpp in Headers */,
+				D774F9711E53493400F050F9 /* ULID.h in Headers */,
 				D73F2AA31E5370F40029A18A /* ulid.hpp in Headers */,
+				D78FF06B1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +161,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF06C1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +169,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF06D1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +177,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF06E1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73F2AA71E5385E40029A18A /* ulid_wrapper.cpp in Sources */,
+				D78FF06F1E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF0701E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF0711E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF0721E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ULID.hpp
+//  ULID.h
 //  ULID
 //
 //  Created by Ricardo Pereira on 14/02/2017.
@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char ULIDVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ULID/PublicHeader.h>
 
-#import <ULID/ulid_wrapper.hpp>
+#import <ULID/ulid_wrapper.h>

@@ -8,7 +8,7 @@
 #include <random>
 #include <vector>
 
-namespace ulid_core {
+namespace ulid {
 
 // ULID is a 16 byte Universally Unique Lexicographically Sortable Identifier
 typedef __uint128_t ULID;

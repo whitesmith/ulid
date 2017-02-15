@@ -9,9 +9,6 @@
 #ifndef ulid_wrapper_hpp
 #define ulid_wrapper_hpp
 
-#ifdef __cplusplus
-#endif
-
 #include <stdio.h>
 #include <chrono>
 #include <cstdlib>

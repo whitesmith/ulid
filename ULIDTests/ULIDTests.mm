@@ -8,9 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#include <ULID/ULID.hpp>
-
-using namespace ulid;
+#include <ULID/ULID.h>
 
 @interface ULIDTests : XCTestCase
 
@@ -30,10 +28,7 @@ using namespace ulid;
 
 - (void)testULID {
     // From example: https://github.com/suyash/ulid#usage
-    NSTimeInterval timestamp = [[NSDate date] timeIntervalSince1970];
-    ULID ulid = ulid::Create(timestamp, []() { return 4; });
-    std::string str = ulid::Marshal(ulid);
-    NSLog(@"%@", [NSString stringWithCString:str.c_str() encoding:[NSString defaultCStringEncoding]]);
+    NSLog(@"%@", [[WSULID ulid] ULIDString]);
 }
 
 @end
