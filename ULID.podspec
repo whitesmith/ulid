@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.platform          = :ios, '8.0'
   s.requires_arc      = true
   s.source_files      = 'ULID/*.{h}', 'Source/*.{h,hh,hpp,cpp,m,mm}'
-  s.public_header_files = 'ULID/*.{h}'
-  s.private_header_files = 'Source/*.{h,hh,hpp}'
+  s.public_header_files = 'ULID/*.{h}', 'Source/*.{h}'
+  s.private_header_files = 'Source/*.{hh,hpp}'
 end
