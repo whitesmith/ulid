@@ -39,6 +39,9 @@
 		D774F9691E53493400F050F9 /* ULIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D774F96E1E53493400F050F9 /* ULIDTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ULIDTests.mm; sourceTree = "<group>"; };
 		D774F9701E53493400F050F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78FF0471E53D385000DA6D5 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78FF0541E53D3AA000DA6D5 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78FF0611E53D3C0000DA6D5 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D774F96A1E53493400F050F9 /* ULID.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF0431E53D385000DA6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF0501E53D3AA000DA6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF05D1E53D3C0000DA6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +111,9 @@
 			children = (
 				D774F9601E53493400F050F9 /* ULID.framework */,
 				D774F9691E53493400F050F9 /* ULIDTests.xctest */,
+				D78FF0471E53D385000DA6D5 /* ULID.framework */,
+				D78FF0541E53D3AA000DA6D5 /* ULID.framework */,
+				D78FF0611E53D3C0000DA6D5 /* ULID.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,12 +151,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D78FF0441E53D385000DA6D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF0511E53D3AA000DA6D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF05E1E53D3C0000DA6D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D774F95F1E53493400F050F9 /* ULID */ = {
+		D774F95F1E53493400F050F9 /* ULID-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D774F9741E53493400F050F9 /* Build configuration list for PBXNativeTarget "ULID" */;
+			buildConfigurationList = D774F9741E53493400F050F9 /* Build configuration list for PBXNativeTarget "ULID-iOS" */;
 			buildPhases = (
 				D774F95B1E53493400F050F9 /* Sources */,
 				D774F95C1E53493400F050F9 /* Frameworks */,
@@ -140,7 +188,7 @@
 			);
 			dependencies = (
 			);
-			name = ULID;
+			name = "ULID-iOS";
 			productName = ULID;
 			productReference = D774F9601E53493400F050F9 /* ULID.framework */;
 			productType = "com.apple.product-type.framework";
@@ -163,6 +211,60 @@
 			productReference = D774F9691E53493400F050F9 /* ULIDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D78FF0461E53D385000DA6D5 /* ULID-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78FF04C1E53D385000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-macOS" */;
+			buildPhases = (
+				D78FF0421E53D385000DA6D5 /* Sources */,
+				D78FF0431E53D385000DA6D5 /* Frameworks */,
+				D78FF0441E53D385000DA6D5 /* Headers */,
+				D78FF0451E53D385000DA6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ULID-macOS";
+			productName = ULID;
+			productReference = D78FF0471E53D385000DA6D5 /* ULID.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D78FF0531E53D3AA000DA6D5 /* ULID-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78FF0591E53D3AA000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-tvOS" */;
+			buildPhases = (
+				D78FF04F1E53D3AA000DA6D5 /* Sources */,
+				D78FF0501E53D3AA000DA6D5 /* Frameworks */,
+				D78FF0511E53D3AA000DA6D5 /* Headers */,
+				D78FF0521E53D3AA000DA6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ULID-tvOS";
+			productName = ULID;
+			productReference = D78FF0541E53D3AA000DA6D5 /* ULID.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D78FF0601E53D3C0000DA6D5 /* ULID-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78FF0661E53D3C0000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-watchOS" */;
+			buildPhases = (
+				D78FF05C1E53D3C0000DA6D5 /* Sources */,
+				D78FF05D1E53D3C0000DA6D5 /* Frameworks */,
+				D78FF05E1E53D3C0000DA6D5 /* Headers */,
+				D78FF05F1E53D3C0000DA6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ULID-watchOS";
+			productName = ULID;
+			productReference = D78FF0611E53D3C0000DA6D5 /* ULID.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,6 +282,18 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					D78FF0461E53D385000DA6D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D78FF0531E53D3AA000DA6D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D78FF0601E53D3C0000DA6D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = D774F95A1E53493400F050F9 /* Build configuration list for PBXProject "ULID" */;
@@ -194,8 +308,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D774F95F1E53493400F050F9 /* ULID */,
+				D774F95F1E53493400F050F9 /* ULID-iOS */,
 				D774F9681E53493400F050F9 /* ULIDTests */,
+				D78FF0461E53D385000DA6D5 /* ULID-macOS */,
+				D78FF0531E53D3AA000DA6D5 /* ULID-tvOS */,
+				D78FF0601E53D3C0000DA6D5 /* ULID-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +326,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D774F9671E53493400F050F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF0451E53D385000DA6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF0521E53D3AA000DA6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF05F1E53D3C0000DA6D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,12 +372,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D78FF0421E53D385000DA6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF04F1E53D3AA000DA6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78FF05C1E53D3C0000DA6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		D774F96C1E53493400F050F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D774F95F1E53493400F050F9 /* ULID */;
+			target = D774F95F1E53493400F050F9 /* ULID-iOS */;
 			targetProxy = D774F96B1E53493400F050F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -355,7 +514,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Source";
 				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ULID;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -374,7 +533,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Source";
 				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ULID;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -399,6 +558,130 @@
 			};
 			name = Release;
 		};
+		D78FF04D1E53D385000DA6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ULID/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
+				PRODUCT_NAME = ULID;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D78FF04E1E53D385000DA6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ULID/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
+				PRODUCT_NAME = ULID;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D78FF05A1E53D3AA000DA6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ULID/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
+				PRODUCT_NAME = ULID;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		D78FF05B1E53D3AA000DA6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ULID/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
+				PRODUCT_NAME = ULID;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		D78FF0671E53D3C0000DA6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ULID/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
+				PRODUCT_NAME = ULID;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		D78FF0681E53D3C0000DA6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ULID/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.ULID;
+				PRODUCT_NAME = ULID;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D774F9741E53493400F050F9 /* Build configuration list for PBXNativeTarget "ULID" */ = {
+		D774F9741E53493400F050F9 /* Build configuration list for PBXNativeTarget "ULID-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D774F9751E53493400F050F9 /* Debug */,
@@ -428,6 +711,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D78FF04C1E53D385000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78FF04D1E53D385000DA6D5 /* Debug */,
+				D78FF04E1E53D385000DA6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D78FF0591E53D3AA000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78FF05A1E53D3AA000DA6D5 /* Debug */,
+				D78FF05B1E53D3AA000DA6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D78FF0661E53D3C0000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78FF0671E53D3C0000DA6D5 /* Debug */,
+				D78FF0681E53D3C0000DA6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

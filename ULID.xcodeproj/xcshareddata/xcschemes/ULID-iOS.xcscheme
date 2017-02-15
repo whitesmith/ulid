@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D774F95F1E53493400F050F9"
                BuildableName = "ULID.framework"
-               BlueprintName = "ULID"
+               BlueprintName = "ULID-iOS"
                ReferencedContainer = "container:ULID.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D774F95F1E53493400F050F9"
             BuildableName = "ULID.framework"
-            BlueprintName = "ULID"
+            BlueprintName = "ULID-iOS"
             ReferencedContainer = "container:ULID.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D774F95F1E53493400F050F9"
             BuildableName = "ULID.framework"
-            BlueprintName = "ULID"
+            BlueprintName = "ULID-iOS"
             ReferencedContainer = "container:ULID.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D774F95F1E53493400F050F9"
             BuildableName = "ULID.framework"
-            BlueprintName = "ULID"
+            BlueprintName = "ULID-iOS"
             ReferencedContainer = "container:ULID.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
