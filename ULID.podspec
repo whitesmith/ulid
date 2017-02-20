@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name              = 'ULID'
   s.version           = '1.0.1'
   s.summary           = 'Universally Unique Lexicographically Sortable Identifier'
-  s.homepage          = 'https://github.com/whitesmith/WSTagsField'
+  s.homepage          = 'https://github.com/whitesmith/ulid'
   s.author            = { "Ricardo Pereira" => "m@ricardopereira.eu" }
   s.license           = 'MIT'
   s.social_media_url  = 'https://twitter.com/whitesmithco'
