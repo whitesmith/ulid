@@ -731,6 +731,7 @@
 				D78FF04E1E53D385000DA6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D78FF0591E53D3AA000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +740,7 @@
 				D78FF05B1E53D3AA000DA6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D78FF0661E53D3C0000DA6D5 /* Build configuration list for PBXNativeTarget "ULID-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -747,6 +749,7 @@
 				D78FF0681E53D3C0000DA6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
