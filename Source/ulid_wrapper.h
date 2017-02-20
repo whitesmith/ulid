@@ -13,10 +13,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WSULID : NSObject
+@interface ULID : NSObject <NSCopying>
 
-/* Create a new autoreleased WSULID */
-+ (instancetype)ulid;
+/* Create a new autoreleased ULID */
++ (instancetype)ULID;
+
+/* Init with a timestamp and a generator */
+- (instancetype)initWithTimestamp:(NSTimeInterval)timestamp generator:(NSUInteger(^)())generator;
 
 /* Return a string description of the ULID, such as "0001C7STHC0G2081040G208104" */
 @property (readonly, copy) NSString *ULIDString;
