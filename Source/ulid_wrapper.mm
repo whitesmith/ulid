@@ -56,7 +56,7 @@ typedef ulid::ULID ULIDData; //struct or __uint128_t
 - (BOOL)isEqual:(id)object {
     if (![object isKindOfClass:[ULID class]]) return NO;
     ULID* other = (ULID*)object;
-    return self->_ulid == other->_ulid;
+    return ulid::CompareULIDs(self->_ulid, other->_ulid) == 0;
 }
 
 @end
