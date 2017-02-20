@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'ULID'
-  s.version           = '1.0.1'
+  s.version           = '1.0.2'
   s.summary           = 'Universally Unique Lexicographically Sortable Identifier'
   s.homepage          = 'https://github.com/whitesmith/ulid'
   s.author            = { "Ricardo Pereira" => "m@ricardopereira.eu" }
