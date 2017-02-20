@@ -44,7 +44,7 @@ typedef ulid::ULID ULIDData; //struct or __uint128_t
     return self;
 }
 
-- (NSString *)ULIDString {
+- (NSString *)ulidString {
     std::string value = ulid::Marshal(_ulid);
     return [NSString stringWithCString:value.c_str() encoding:[NSString defaultCStringEncoding]];
 }

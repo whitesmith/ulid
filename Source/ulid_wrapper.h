@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithTimestamp:(NSTimeInterval)timestamp generator:(NSUInteger(^)())generator;
 
 /* Return a string description of the ULID, such as "0001C7STHC0G2081040G208104" */
-@property (readonly, copy) NSString *ULIDString;
+@property (nonatomic, readonly) NSString *ulidString;
 
 @end
 

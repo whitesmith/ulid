@@ -19,11 +19,11 @@
 - (void)testULIDWrapper {
     // From example: https://github.com/suyash/ulid#usage
     ULID *ulid = [[ULID alloc] initWithTimestamp:1484581420 generator:^NSUInteger{ return 4; }];
-    XCTAssertTrue([[ulid ULIDString] isEqualToString:@"0001C7STHC0G2081040G208104"]);
+    XCTAssertTrue([[ulid ulidString] isEqualToString:@"0001C7STHC0G2081040G208104"]);
 }
 
 - (void)testULIDString {
-    XCTAssertTrue([[[ULID new] ULIDString] lengthOfBytesUsingEncoding:NSUTF8StringEncoding] == 26);
+    XCTAssertTrue([[[ULID new] ulidString] lengthOfBytesUsingEncoding:NSUTF8StringEncoding] == 26);
 }
 
 - (void)testULIDEquality {
