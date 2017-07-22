@@ -2,14 +2,6 @@
 
 #### Objective-C wrapper of the [C++ library](https://github.com/suyash/ulid)
 
----
-
-> :warning: **WARNING** :warning: This project is in a _prerelease_ state. There
-> is active work going on that will result in interface changes that can/will break
-> code while things are finished. Use with caution.
-
----
-
 ### Usage
 
 **Objective-C**
@@ -61,7 +53,7 @@ for up to date installation instructions.
 
 [carthage-installation]: https://github.com/Carthage/Carthage#adding-frameworks-to-an-application
 
-#### <img src="https://dl.dropboxusercontent.com/u/11377305/resources/cocoapods.png" width="24" height="24"> [CocoaPods]
+#### <img src="https://raw.githubusercontent.com/ricardopereira/resources/master/img/cocoapods.png" width="24" height="24"> [CocoaPods]
 
 [CocoaPods]: http://cocoapods.org
 
