@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)ULID;
 
 /* Init with a timestamp and a generator */
-- (instancetype)initWithTimestamp:(NSTimeInterval)timestamp generator:(NSUInteger(^)())generator;
+- (instancetype)initWithTimestamp:(NSTimeInterval)timestamp generator:(NSUInteger(^)(void))generator;
 
 /* Return a string description of the ULID, such as "0001C7STHC0G2081040G208104" */
 @property (nonatomic, readonly) NSString *ulidString;
