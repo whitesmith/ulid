@@ -10,6 +10,15 @@
 		D710D6BA2194A408008F54AD /* ULID.h in Headers */ = {isa = PBXBuildFile; fileRef = D774F9631E53493400F050F9 /* ULID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D710D6BB2194A409008F54AD /* ULID.h in Headers */ = {isa = PBXBuildFile; fileRef = D774F9631E53493400F050F9 /* ULID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D710D6BC2194A409008F54AD /* ULID.h in Headers */ = {isa = PBXBuildFile; fileRef = D774F9631E53493400F050F9 /* ULID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D710D6BD2194A61A008F54AD /* ulid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA01E5370F40029A18A /* ulid.hpp */; };
+		D710D6BE2194A61A008F54AD /* ulid_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */; };
+		D710D6BF2194A61A008F54AD /* ulid_uint128.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */; };
+		D710D6C02194A61A008F54AD /* ulid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA01E5370F40029A18A /* ulid.hpp */; };
+		D710D6C12194A61A008F54AD /* ulid_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */; };
+		D710D6C22194A61A008F54AD /* ulid_uint128.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */; };
+		D710D6C32194A61A008F54AD /* ulid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA01E5370F40029A18A /* ulid.hpp */; };
+		D710D6C42194A61A008F54AD /* ulid_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */; };
+		D710D6C52194A61A008F54AD /* ulid_uint128.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */; };
 		D73F2AA11E5370F40029A18A /* ulid_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */; };
 		D73F2AA21E5370F40029A18A /* ulid_uint128.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */; };
 		D73F2AA31E5370F40029A18A /* ulid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D73F2AA01E5370F40029A18A /* ulid.hpp */; };
@@ -17,9 +26,9 @@
 		D774F96F1E53493400F050F9 /* ULIDTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D774F96E1E53493400F050F9 /* ULIDTests.mm */; };
 		D774F9711E53493400F050F9 /* ULID.h in Headers */ = {isa = PBXBuildFile; fileRef = D774F9631E53493400F050F9 /* ULID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D78FF06B1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D78FF06C1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; };
-		D78FF06D1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; };
-		D78FF06E1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; };
+		D78FF06C1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78FF06D1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78FF06E1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D78FF0691E53D55C000DA6D5 /* ulid_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D78FF06F1E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
 		D78FF0701E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
 		D78FF0711E53D55C000DA6D5 /* ulid_wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D78FF06A1E53D55C000DA6D5 /* ulid_wrapper.mm */; };
@@ -164,8 +173,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D710D6BD2194A61A008F54AD /* ulid.hpp in Headers */,
 				D710D6BA2194A408008F54AD /* ULID.h in Headers */,
 				D78FF06C1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
+				D710D6BF2194A61A008F54AD /* ulid_uint128.hpp in Headers */,
+				D710D6BE2194A61A008F54AD /* ulid_struct.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +185,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D710D6C02194A61A008F54AD /* ulid.hpp in Headers */,
 				D710D6BB2194A409008F54AD /* ULID.h in Headers */,
 				D78FF06D1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
+				D710D6C22194A61A008F54AD /* ulid_uint128.hpp in Headers */,
+				D710D6C12194A61A008F54AD /* ulid_struct.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,8 +197,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D710D6C32194A61A008F54AD /* ulid.hpp in Headers */,
 				D710D6BC2194A409008F54AD /* ULID.h in Headers */,
 				D78FF06E1E53D55C000DA6D5 /* ulid_wrapper.h in Headers */,
+				D710D6C52194A61A008F54AD /* ulid_uint128.hpp in Headers */,
+				D710D6C42194A61A008F54AD /* ulid_struct.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
