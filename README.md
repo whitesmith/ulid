@@ -1,5 +1,7 @@
 # Universally Unique Lexicographically Sortable Identifier
 
+[![Build Status](https://app.bitrise.io/app/4f9203939dec3320/status.svg?token=l2TYi3Y18mU3JgWkGI7AhQ&branch=master)](https://app.bitrise.io/app/4f9203939dec3320)
+
 #### Objective-C wrapper of the [C++ library](https://github.com/suyash/ulid)
 
 ### Usage
@@ -67,6 +69,6 @@ Then run `pod install` with CocoaPods 1.0 or newer.
 
 # Contributing
 
-The best way to contribute is by submitting a pull request. We'll do our best to respond to your patch as soon as possible. You can also submit a [new GitHub issue](https://github.com/whitesmith/ulid/issues/new) if you find bugs or have questions. :octocat:
+The best way to contribute is by submitting a pull request. We'll do our best to respond to your patch as soon as possible. You can also submit a [new GitHub issue](https://github.com/whitesmith/ulid/issues/new) if you find bugs or have questions.
 
 ![Whitesmith](http://i.imgur.com/Si2l3kd.png)
