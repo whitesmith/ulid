@@ -7,7 +7,7 @@
 
 #### Objective-C wrapper of the [C++ library](https://github.com/suyash/ulid)
 
-### Usage
+## Usage
 
 **Objective-C**
 
@@ -24,6 +24,13 @@ import ULID
 
 print(ULID().ulidString)
 ```
+
+### Requirements
+
+- iOS 8.0+
+- watchOS 2.0+
+- tvOS 9.0+
+- macOS 10.10+
 
 ## Specification
 
