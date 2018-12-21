@@ -244,7 +244,7 @@ struct ULID {
 
 // EncodeTime will encode the first 6 bytes of a uint8_t array to the passed
 // timestamp
-void EncodeTime(time_t timestamp, ULID& ulid) {
+void EncodeTime(uint64_t timestamp, ULID& ulid) {
 	ulid.data[0] = static_cast<uint8_t>(timestamp >> 40);
 	ulid.data[1] = static_cast<uint8_t>(timestamp >> 32);
 	ulid.data[2] = static_cast<uint8_t>(timestamp >> 24);
