@@ -27,9 +27,9 @@ print(ULID().ulidString)
 
 ### Requirements
 
-- iOS 8.0+
-- watchOS 2.0+
-- tvOS 9.0+
+- iOS 11.0+
+- tvOS 11.0+
+- watchOS 4.0+
 - macOS 10.10+
 
 ## Specification
