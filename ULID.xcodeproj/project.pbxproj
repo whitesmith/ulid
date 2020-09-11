@@ -49,6 +49,7 @@
 		D73F2A9E1E5370F40029A18A /* ulid_struct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid_struct.hpp; path = Source/ulid_struct.hpp; sourceTree = "<group>"; };
 		D73F2A9F1E5370F40029A18A /* ulid_uint128.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid_uint128.hpp; path = Source/ulid_uint128.hpp; sourceTree = "<group>"; };
 		D73F2AA01E5370F40029A18A /* ulid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ulid.hpp; path = Source/ulid.hpp; sourceTree = "<group>"; };
+		D74F3829250BB6E1000C79EF /* ULID.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = ULID.modulemap; sourceTree = "<group>"; };
 		D774F9601E53493400F050F9 /* ULID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ULID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D774F9631E53493400F050F9 /* ULID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ULID.h; sourceTree = "<group>"; };
 		D774F9641E53493400F050F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				D774F9631E53493400F050F9 /* ULID.h */,
+				D74F3829250BB6E1000C79EF /* ULID.modulemap */,
 				D774F9641E53493400F050F9 /* Info.plist */,
 			);
 			path = ULID;
@@ -493,6 +495,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "$(SRCROOT)/ULID/ULID.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -550,6 +553,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "$(SRCROOT)/ULID/ULID.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,6 +568,7 @@
 		D774F9751E53493400F050F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -583,6 +588,7 @@
 		D774F9761E53493400F050F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -622,6 +628,7 @@
 		D78FF04D1E53D385000DA6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -642,6 +649,7 @@
 		D78FF04E1E53D385000DA6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -662,6 +670,7 @@
 		D78FF05A1E53D3AA000DA6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -681,6 +690,7 @@
 		D78FF05B1E53D3AA000DA6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

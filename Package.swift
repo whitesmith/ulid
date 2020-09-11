@@ -14,7 +14,8 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "ULID",
-            targets: ["ULID"])
+            targets: ["ULID"]
+        )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -26,6 +27,15 @@ let package = Package(
         .target(
             name: "ULID",
             path: ".",
-            sources: ["Source"])
-    ]
+            sources: [
+                "Source/ulid_wrapper.mm",
+            ],
+            publicHeadersPath: "include",
+            cxxSettings: [
+                .headerSearchPath("include"),
+                .define("ULID_SPM", to: "1"),
+            ]
+        )
+    ],
+    cxxLanguageStandard: .cxx1z
 )

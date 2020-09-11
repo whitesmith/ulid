@@ -1,7 +1,7 @@
 #ifndef ulid_hpp
 #define ulid_hpp
 
-// http://stackoverflow.com/a/23981011
+// https://stackoverflow.com/a/23981011
 #ifdef __SIZEOF_INT128__
 #define ULIDUINT128
 #endif
