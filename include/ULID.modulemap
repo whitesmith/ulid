@@ -1,0 +1,9 @@
+// This file should match ULID/ULID.modulemap, except for that it's "module
+// ULID" rather than "framework module ULID", and the paths below have the
+// ULID/ prefix (due to not being a framework module)
+module ULID {
+    umbrella header "ULID/ULID.h"
+
+    export *
+    module * { export * }
+}

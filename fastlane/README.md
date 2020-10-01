@@ -12,25 +12,39 @@ Install _fastlane_ using
 ```
 [sudo] gem install fastlane -NV
 ```
-or alternatively using `brew cask install fastlane`
+or alternatively using `brew install fastlane`
 
 # Available Actions
-## iOS
-### ios test
+### test
 ```
-fastlane ios test
+fastlane test
 ```
 Runs all the tests
-### ios version_bump_project
+### get_shared_version_number
 ```
-fastlane ios version_bump_project
+fastlane get_shared_version_number
 ```
-Increment the verion and build number
-### ios release
+
+### get_shared_build_number
 ```
-fastlane ios release
+fastlane get_shared_build_number
 ```
-Prepare a new Release version
+
+### bump_build_number
+```
+fastlane bump_build_number
+```
+
+### bump_version
+```
+fastlane bump_version
+```
+
+### release
+```
+fastlane release
+```
+
 
 ----
 
