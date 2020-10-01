@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:    
+      - main
+name: Test
+jobs:
+  test:
+    name: Test
+    runs-on: macOS-latest
+    strategy:
+        matrix:
+          destination: ['platform=iOS Simulator,OS=14.0,name=iPhone 11']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+      - name: Test - ${{ matrix.destination }}
+        run: |
+          sudo xcode-select -s /Applications/Xcode_12.app/Contents/Developer; xcodebuild -version
+          xcodebuild clean test -project ULID.xcodeproj -scheme ULIDTests -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+        env: 
+         destination: ${{ matrix.destination }}
