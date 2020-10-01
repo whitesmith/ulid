@@ -2,7 +2,10 @@
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg)](https://github.com/Carthage/Carthage)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/ULID.svg)](https://cocoapods.org/pods/WSTagsField)
-[![Build Status](https://app.bitrise.io/app/4f9203939dec3320/status.svg?token=l2TYi3Y18mU3JgWkGI7AhQ&branch=master)](https://app.bitrise.io/app/4f9203939dec3320)
+[![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager)
+<a href="https://github.com/whitesmith/ulid/actions">
+  <img src="https://github.com/whitesmith/ulid/workflows/Push/badge.svg" />
+</a>
 [![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](https://opensource.org/licenses/MIT)
 
 #### Objective-C wrapper of the [C++ library](https://github.com/suyash/ulid)
